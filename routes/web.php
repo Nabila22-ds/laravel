@@ -16,3 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/beranda', function () {
+    return view('beranda');
+});
+
+Route::get('/profil.blade.php', function () {
+    return view('profil');
+});
+
+
+Route::get('/galeri.blade.php', function () {
+    return view('galeri');
+});
+
+Route::get('/coba.blade.php', function () {
+    return view('coba');
+});
